@@ -1,6 +1,29 @@
+@font-face {
+  font-family: 'Brandon-Text';
+  src: url("../fonts/brandon_text_regular.ttf") format("truetype"), url("../fonts/brandon_text_regular.woff") format("woff"), url("../fonts/brandon_text_regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon-Text';
+  src: url("../fonts/brandon_textmedium.ttf") format("truetype"), url("../fonts/brandon_textmedium.woff") format("woff"), url("../fonts/brandon_textmedium.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon-Text';
+  src: url("../fonts/brandon_textbold.ttf") format("truetype"), url("../fonts/brandon_textbold.woff") format("woff"), url("../fonts/brandon_textbold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+ .clear{ clear:both; }
+
 .body {
   color: #4e2575;
-  font: Brandon Grotesque;
+  font-family: "Brandon-Text", sans-serif;
 }
 .header {
   width: 100%;
@@ -77,11 +100,14 @@
 .text-over-img {
   position: absolute;
   top: 20%;
-  left: 70%;
+  right: 0;
   color: #2c2c2c;
-  font: normal normal bold 68px/75px Brandon Grotesque;
   text-align: right;
   margin-right: 100px;
+  width: 666px;
+  height: 311px;
+  font-weight: bold;
+  font-size: 4.5rem;
 }
 
 .call-you-container {
@@ -179,7 +205,6 @@
 
 .pricebox{
   white-space: nowrap;
-    min-width: 300px;
 }
 
 .pricebox-body{
@@ -191,6 +216,10 @@
   color:#565656;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  height: 278px;
+}
+.pricebox-img{
+  height: 300px;
 }
 
 .repo-property-list{
