@@ -1,35 +1,47 @@
 @font-face {
-	font-family: 'Brandon-Text';
-	src: url("../fonts/brandon_text_regular.ttf") format("truetype"), url("../fonts/brandon_text_regular.woff") format("woff"), url("../fonts/brandon_text_regular.svg") format("svg");
-	font-weight: 400;
-	font-style: normal;
+  font-family: "Brandon-Text";
+  src: url("../fonts/brandon_text_regular.ttf") format("truetype"),
+    url("../fonts/brandon_text_regular.woff") format("woff"),
+    url("../fonts/brandon_text_regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Brandon-Text';
-	src: url("../fonts/brandon_textmedium.ttf") format("truetype"), url("../fonts/brandon_textmedium.woff") format("woff"), url("../fonts/brandon_textmedium.svg") format("svg");
-	font-weight: 600;
-	font-style: normal;
+  font-family: "Brandon-Text";
+  src: url("../fonts/brandon_textmedium.ttf") format("truetype"),
+    url("../fonts/brandon_textmedium.woff") format("woff"),
+    url("../fonts/brandon_textmedium.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Brandon-Text';
-	src: url("../fonts/brandon_textbold.ttf") format("truetype"), url("../fonts/brandon_textbold.woff") format("woff"), url("../fonts/brandon_textbold.svg") format("svg");
-	font-weight: 700;
-	font-style: normal;
+  font-family: "Brandon-Text";
+  src: url("../fonts/brandon_textbold.ttf") format("truetype"),
+    url("../fonts/brandon_textbold.woff") format("woff"),
+    url("../fonts/brandon_textbold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
 }
 
-*, *:before, *:after {
-	box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 .body {
 	color: #4e2575;
 	font-family: "Brandon-Text", sans-serif;
+}
+
+.row {
+  justify-content: center;
 }
 
 .header {
@@ -66,18 +78,16 @@
 }
 
 .phone-label {
-	font: normal normal bold 38px/46px Brandon Grotesque;
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 #create-order {
-	background-color: #f48e1f;
-	margin-left: 10px;
-	border: 0;
-	width: 284px;
-	height: 55px;
-	font: normal normal bold 22px/35px Brandon Grotesque;
-	color: #ffffff;
+  background-color: #f48e1f;
+  margin-left: 10px;
+  border: 0;
+  width: 284px;
+  height: 55px;
+  color: #ffffff;
 }
 
 .page-content {
@@ -90,13 +100,12 @@
 	padding-right: 20px;
 }
 
-	.menu a {
-		color: #4e2575;
-		text-decoration: none;
-		font: normal normal normal 22px/26px Brandon Grotesque;
-		font-size: 1.15rem !important;
-		font-weight: bold;
-	}
+.menu a {
+  color: #4e2575;
+  text-decoration: none;
+  font-size: 1.15rem !important;
+  font-weight: bold;
+}
 
 .img-container {
 	position: relative;
@@ -135,10 +144,10 @@
 	padding: 13px;
 	flex-direction: column;
 }
-
-	.call-you-form label {
-		font: normal normal bold 36px/34px Brandon Grotesque;
-	}
+.call-you-form label {
+  font-size: 36px;
+  font-weight: bold;
+}
 
 .flex-input {
 	display: flex;
@@ -160,15 +169,15 @@
 			box-shadow: none;
 		}
 
-	.flex-input button {
-		width: 100%;
-		font-size: 20px;
-		background-color: #e9973e;
-		height: 49px;
-		color: white;
-		border: none;
-		border-radius: 10px;
-	}
+.round-button {
+  width: 100%;
+  font-size: 20px;
+  background-color: #e9973e;
+  height: 49px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
 
 	.flex-input .input-group-text {
 		height: 100%;
@@ -185,10 +194,9 @@
 }
 
 .under-image-header {
-	font: normal normal bold 22px/26px Brandon Grotesque;
-	color: #e9973e;
-	padding-top: 20px;
-	padding-bottom: 10px;
+  color: #e9973e;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .div-under-image span {
@@ -201,17 +209,18 @@
 }
 
 .span_h2 {
-	font-size: 1.2rem;
-	margin-top: 0.9375rem;
-	margin-bottom: 0.9375rem;
-	color: #551D79;
-	font-weight: bold;
-	text-align: center;
+  font-size: 2.1rem;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+  color: #551d79;
+  font-weight: bold;
+  text-align: center;
 }
 
 .pricebox-container {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .repo-title {
@@ -220,53 +229,192 @@
 }
 
 .pricebox {
-	white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pricebox-body {
-	background-color: #f0f0f0;
-	padding-left: 0.625rem;
-	padding-right: 0.625rem;
-	padding-top: 0.625rem;
-	padding-bottom: 0.625rem;
-	color: #565656;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-	height: 278px;
+  background-color: #f0f0f0;
+  padding: 0.825rem;
+  color: #565656;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 278px;
+  white-space: nowrap;
+}
+.pricebox-img {
+  height: 300px;
+  width: 300px;
+  border: 0.1px solid #dddbdb;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.pricebox-img {
-	height: 300px;
+.pricebox-img img {
+  width: 100%;
+  height: 80%;
 }
 
 .repo-property-list {
-	list-style: none;
-	padding-left: 0;
-	margin-bottom: 5px;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 5px;
+  margin-right: 50px;
 }
 
 .pricebox .price-btn {
-	position: relative;
-	margin-bottom: 1.5625rem;
+  position: relative;
+  margin-bottom: 1.5625rem;
 }
 
-	.pricebox .price-btn span {
-		display: inline-block;
-		background-color: #551D79;
-		padding: 0.3125rem 0.625rem;
-		font-size: 0.75rem;
-		font-weight: 700;
-		color: white;
-		border: solid 4px #f0f0f0;
-		border-radius: 50px;
-	}
+.pricebox .price-btn span {
+  display: inline-block;
+  background-color: #551d79;
+  padding: 0.3125rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+  border: solid 4px #f0f0f0;
+  border-radius: 50px;
+}
 
-	.pricebox .price-btn:after {
-		content: '';
-		border-bottom: 1px solid #d6d6d6;
-		display: block;
-		margin-top: -1.0625rem;
-	}
+.pricebox .price-btn:after {
+  content: "";
+  border-bottom: 1px solid #d6d6d6;
+  display: block;
+  margin-top: -1.0625rem;
+}
+
+.alan_hesaplama {
+  height: auto;
+  padding: 30px 100px 0px 30px;
+  width: 80%;
+}
+
+.alan_hesaplama .alan_hesaplama_ic {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.alan_hesaplama .alan_hesaplama_ic .ah_gorsel {
+  width: 273px;
+  height: 273px;
+  position: absolute;
+  right: 10%;
+}
+
+.alan_hesaplama .alan_hesaplama_ic .ah_text {
+  flex-grow: 1;
+  height: auto;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.alan_hesaplama .alan_hesaplama_ic .ah_text > strong {
+  display: block;
+  background-color: #f4f4f4;
+  color: #2c2c2c;
+  font-size: 2.5rem;
+  padding-left: 10px;
+}
+
+.alan_hesaplama .alan_hesaplama_ic .ah_text > span {
+  display: block;
+  color: #979797;
+  line-height: 22px;
+  background-color: #e5e5e5;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.alan_hesaplama .alan_hesaplama_ic .ah_text .ah_link {
+  display: inline-block;
+  color: #551d79;
+  text-decoration: underline;
+  background-color: #e5e5e5;
+}
+
+.online-order {
+  background: #e9973e;
+  padding: 40px 0px;
+}
+
+.online-order .os_buton {
+  width: auto;
+  height: auto;
+  border: 2px solid #ffffff;
+  text-align: center;
+  font-size: 36px;
+  padding: 13px 100px;
+  display: table;
+  color: #fff;
+  margin: 0px auto;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.alan_bg {
+  background: #f4f4f4;
+  border-bottom: solid 1px #e6e6e6;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.buyuk_baslik {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.moryaziKimkucuk {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.customer-comments{
+  border-bottom: solid 1px #e6e6e6;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.musteri_yorumlari .my_alan{
+  width: 100%;
+  padding: 0 15px;
+  height: auto;
+  line-height: 24px;
+  color: #8b8b8b;
+  text-align:center;
+  font-size: 1.5rem;
+}
+
+.musteri_yorumlari .my_alan > span{
+  height: auto;
+  display: block;
+  text-align:center;
+  margin-top: 20px;
+  width: 100%;
+  color: #111;
+  font-weight: bold;
+}
+
+.musteri_yorumlari .owl-pagination {
+    margin-top:20px;
+    z-index: 9999;
+    position: relative;
+    padding: 0px;
+}
 
 @media all and (max-width: 480px) {
 	.flex-input {

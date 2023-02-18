@@ -1,0 +1,426 @@
+.widthozel{
+	width: 36% !important;
+}
+.widtozel26{
+	width: 26% !important;
+}
+.widtozel30{
+  width: 30% !important;
+}
+.widtozel47{
+  width: 47% !important;
+}
+.widtozel49{
+  width: 49% !important;
+}
+.widtozel90{
+  width: 90% !important;
+}
+.widtozel100{
+  width: 100% !important;
+}
+.widtozel62{
+  width: 62px !important;
+}
+.widtozel100{
+  width: 100% !important;
+}
+.bottomozel{
+    margin-bottom: 4% !important;
+}
+.heightozel{
+	height: 25px !important;
+}
+.heightozel20{
+  height: 20px !important;
+}
+.top10{
+	margin-top: 10px !important;
+}
+.ozelselectwidth{
+	width: 40% !important;
+}
+.ozelselectwidth2{
+  width: 70% !important;
+}
+.ozelbutonwidth{
+	width: 60% !important;
+}
+.borderyok{
+	border: 0px !important;
+}
+.ozelboyutmenu{
+	width: 631px !important;
+}
+.beyaz{
+	color: #fff !important;
+}
+.bold900{
+	font-weight: 900 !important;
+}
+.eksi{
+	position: relative !important;
+    top: .125rem !important;
+    float: left !important;
+    cursor: pointer !important;
+    margin-bottom: -.3125rem !important;
+}
+.arti{
+	float: right !important;
+    cursor: pointer !important;
+    position: relative !important;
+    top: .125rem !important;
+}
+.widtozel50{
+	width: 50% !important;
+}
+.widtozel40{
+	width: 40% !important;
+}
+.ilceyukari{
+	    float: right !important;
+    margin-top: -9% !important;
+}
+
+header.mobile .mobile-head {
+
+  position: fixed !important;
+  width: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 99 !important;
+
+}
+
+.payar{
+	/*font-weight: 700 !important;  */
+	text-align: center !important;
+}
+
+.newuyari{
+	background-color: #FFF !important;
+	border-color: rgb(0, 0, 0) !important;
+	border-width: 3px !important;
+	font-size: 17px !important;
+	color: #551D79 !important;
+
+}
+.newuyarieski{
+  background-color: #E2E2E2 !important;
+  border-color: rgb(0, 0, 0) !important;
+  border-width: 3px !important;
+  font-size: 17px !important;
+  color: #551D79 !important;
+
+}
+.newuyari2{
+	background-color: #E2E2E2 !important;
+	border-color: rgb(0, 0, 0) !important;
+	border-width: 3px !important;
+	font-size: 14px !important;
+	color: #551D79 !important;
+
+}
+.scroll{
+	background: #F5F5F5 !important;
+	overflow-y: scroll !important;	
+	height:300px !important;
+}
+.sabitboyut{
+	width: 18% !important;
+	text-align: center !important;
+}
+.ayarsag{
+	float: right !important;
+    margin-right: 3% !important;
+}
+.sosyalcalss{
+	padding: .3125rem .5rem !important;
+   background-color: #551D79 !important;
+    font-size: .75rem !important;
+    width: 1.5625rem !important;
+    height: 1.5625rem !important;
+    border-radius: 50% !important;
+    color: #FFF !important;
+}
+.sosyalcalss:hover{
+	padding: .3125rem .5rem !important;
+   background-color: #7227a2 !important;
+    font-size: .75rem !important;
+    width: 1.5625rem !important;
+    height: 1.5625rem !important;
+    border-radius: 50% !important;
+    color: #FFF !important;
+}
+.margenleft2{
+	margin-left: 2% !important;
+}
+.margintop5{
+	    margin-top: 10% !important;
+}
+.odendi{
+	   color: green !important;
+    font-weight: 600 !important;
+}
+.odenmedi{
+	   color: red !important;
+    font-weight: 600 !important;
+}
+.yesilbuton{
+	    background-color: #31c47a !important;
+    border-color: #31c47a !important;
+    color: #fff !important;
+}
+.yesilbuton:hover{
+	background-color: #551D79 !important;
+    border-color: #551D79 !important;
+    color: #fff !important;
+}
+.height100{
+	    height: 76px !important;
+}
+.silikbuton{
+	 margin: 0 !important;
+    text-align: center !important;
+    padding: .625rem .3125rem !important;
+    position: relative !important;
+    background-color: #E2E2E2 !important;
+    border-color: rgb(0, 0, 0) !important;
+    border-width: 3px !important;
+    font-size: 14px;
+    color: #551D79 !important;
+}
+.renkbuton{
+	background-color: #551D79 !important;
+    border-color: #551D79 !important;
+    color: #fff !important;
+     margin: 0 !important;
+    text-align: center !important;
+    padding: .625rem .3125rem !important;
+     position: relative !important;
+      border-width: 3px !important;
+    font-size: 14px !important;
+}
+.bosluksag{
+      padding-right: 5px !important;
+}
+.sag{
+      float: right !important;
+}
+.height23{
+  height: 23px !important;
+}
+.h1ozel{
+  display: block !important;
+    font-size: 1.5em !important;
+    -webkit-margin-before: 0.83em !important;
+    -webkit-margin-after: 0.83em !important;
+    -webkit-margin-start: 0px !important;
+    -webkit-margin-end: 0px !important;
+    font-weight: bold !important;
+}
+.dilaltbosluk{
+  padding-bottom: .3125rem !important;
+}
+.ozelbold{
+      font-weight: 700 !important;
+}
+.heightozel27{
+   height: 27px !important;
+}
+.margen3{
+      margin-bottom: 3% !important;
+}
+.font1{
+      font-size: 1rem !important;
+}
+.fontboyut600{
+  font-weight: 600 !important;
+}
+.pdl10{
+  padding-left: 10%;
+}
+.mobilbtn{
+  color: #F7931D;
+  border-color: #F7931D;
+  background-color: #FFF;
+}
+.editselect{
+      width: 50% !important;
+}
+.left7{
+      margin-left: 7px !important;
+}
+.table-responsive2{
+    overflow-x: auto !important;
+    min-height: .01% !important;
+    position: relative !important;
+}
+.bold{
+  font-weight: bold !important;
+}
+.p-l-3{
+  padding-left: 2% !important;
+}
+.m-e-6{
+      margin-right: -6% !important;
+}
+header.desktop2 {
+    z-index: 999;
+}
+header.desktop2 {
+    background-color: #fff;
+}
+header.desktop2 nav {
+    background-color: #FFF;
+}
+header.desktop2 nav>ul:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+header.desktop2 nav>ul>li:not(:last-child) {
+    border-right: solid 1px rgba(255,255,255,.3);
+}  
+header.desktop2 nav>ul>li {
+    float: left;
+    position: relative;
+} 
+.fs-17{
+  font-size: 17px !important;
+}
+.fs-15{
+  font-size: 15px !important;
+}
+    
+.h1converth3{
+      font-size: 1.17em !important;
+}
+.h2converth3{
+      font-size: 1.17em !important;
+}
+.h2convertsm{
+    font-size: .875rem !important;
+}
+.floatsag{
+  float: right !important;
+}
+.ozel18genis{
+      width: 18% !important;
+}
+.borderyok{
+      border: 0px solid #dbdbdb !important; 
+}
+.bgozel{
+  background: #FFF8F2;
+}
+.bordersol{
+  border-left: 1px solid #dbdbdb !important;
+}
+.bordersag{
+  border-right: 1px solid #dbdbdb !important;
+}
+.borderyukari{
+  border-top: 1px solid #dbdbdb !important;
+}
+.borderasagi{
+  border-bottom: 1px solid #dbdbdb !important;
+}
+.bordertumraduslu{
+  border: 1px solid #dbdbdb !important;
+      border-radius: 5px !important;
+}
+.pad1{
+      padding: 1% !important;
+}
+.clorturuncu{
+  color: #F7931D !important;
+}
+.mrgtop2{
+    margin-top: 2% !important;
+}
+.pdngleft5{
+      padding-left: 4% !important;
+}
+.btn160{
+      width: 160px !important;
+}
+.textalgleft{
+  text-align: left !important;
+}
+.pdngleft1{
+  padding-left: 1% !important;
+}
+.buyuttr{
+  text-transform: uppercase !important;
+}
+.ucadm{
+  transition:all 0.2s ease;
+}
+.ucadm:hover{
+  transform: scale(1.05);
+}
+.gerkli_alan{
+  outline: 3px solid #F44336 !important;
+}
+.menuFixMod{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+}
+.menuAyarlaDiv{height: 120px; display: ;}
+.ow_slide{
+  display: none;
+}
+.mc_slider{
+  text-align: center;
+}
+.mc_menu{
+  display: inline-block;
+  border-bottom: 2px solid #a16ec1;
+}
+.mc_menu img{
+  float: left;
+  height: 150px;
+  margin: 20px;
+  padding-bottom: 20px;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+.mc_menu img.c{
+  border-bottom: 2px solid #e6bdff;
+  padding-bottom: 3px;
+}
+.mc_icerik{
+  display: none;
+}
+.mc_icerik.c{
+  display: block;
+}
+.div1, .div2, .div3{
+    height: 167px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+.div2{
+    height: 167px;
+    background-color: #f4f4f4;
+}
+
+.eskiMoralan{}
+.hecimHesaplama{
+  display: none;
+}
+
+.alp_footer {
+   position:fixed;
+   right:20px;
+   bottom:20px;
+   height:40px;
+   width:40px;
+   /* background:#999; */
+   /* background-image: url("img/whatsapp-img.png"); */
+   z-index: 19999;
+
+}
