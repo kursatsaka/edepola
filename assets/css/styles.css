@@ -30,7 +30,10 @@
 *:after {
   box-sizing: border-box;
 }
-
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .clear {
   clear: both;
 }
@@ -75,10 +78,13 @@
 .header-phone {
   display: flex;
   align-items: center;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .phone-label {
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 #create-order {
@@ -88,6 +94,7 @@
   width: 284px;
   height: 55px;
   color: #ffffff;
+  font-weight: bold;
 }
 
 .page-content {
@@ -96,7 +103,7 @@
 }
 
 .menu {
-  margin-left: 25px;
+  padding-left: 20px;
   padding-right: 20px;
 }
 
@@ -105,6 +112,9 @@
   text-decoration: none;
   font-size: 1.15rem !important;
   font-weight: bold;
+}
+.menu a:not(:last-child){
+  margin-right: 10px;
 }
 
 .img-container {
@@ -134,7 +144,7 @@
   border-radius: 20px;
   background-color: #ffffff;
   width: 20%;
-  height: 300px;
+  height: 310px;
 }
 
 .call-you-form {
@@ -191,12 +201,17 @@
   background-color: #4e2575;
   color: white;
   padding-left: 31%;
+  justify-content: flex-start;
+  padding-bottom: 10px;
 }
 
 .under-image-header {
   color: #e9973e;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+.under-image-header span{
+  font-size: 1.3rem !important;
 }
 
 .div-under-image span {
@@ -217,7 +232,7 @@
   text-align: center;
 }
 
-.pricebox-container {
+.pricebox-new-container {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -228,13 +243,13 @@
   margin-bottom: 0.5rem;
 }
 
-.pricebox {
+.pricebox-new {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.pricebox-body {
+.pricebox-new-body {
   background-color: #f0f0f0;
   padding: 0.825rem;
   color: #565656;
@@ -243,7 +258,7 @@
   height: 278px;
   white-space: nowrap;
 }
-.pricebox-img {
+.pricebox-new-img {
   height: 300px;
   width: 300px;
   border: 0.1px solid #dddbdb;
@@ -251,7 +266,7 @@
   padding: 20px;
 }
 
-.pricebox-img img {
+.pricebox-new-img img {
   width: 100%;
   height: 80%;
 }
@@ -263,12 +278,12 @@
   margin-right: 50px;
 }
 
-.pricebox .price-btn {
+.pricebox-new .price-btn {
   position: relative;
   margin-bottom: 1.5625rem;
 }
 
-.pricebox .price-btn span {
+.pricebox-new .price-btn span {
   display: inline-block;
   background-color: #551d79;
   padding: 0.3125rem 0.625rem;
@@ -279,40 +294,40 @@
   border-radius: 50px;
 }
 
-.pricebox .price-btn:after {
+.pricebox-new .price-btn:after {
   content: "";
   border-bottom: 1px solid #d6d6d6;
   display: block;
   margin-top: -1.0625rem;
 }
 
-.alan_hesaplama {
+.alan_hesaplama_yeni {
   height: auto;
   padding: 30px 100px 0px 30px;
   width: 80%;
 }
 
-.alan_hesaplama .alan_hesaplama_ic {
+.alan_hesaplama_yeni .alan_hesaplama_yeni_ic {
   height: auto;
   width: 100%;
   display: flex;
 }
 
-.alan_hesaplama .alan_hesaplama_ic .ah_gorsel {
+.alan_hesaplama_yeni .alan_hesaplama_yeni_ic .ah_gorsel {
   width: 273px;
   height: 273px;
   position: absolute;
   right: 10%;
 }
 
-.alan_hesaplama .alan_hesaplama_ic .ah_text {
+.alan_hesaplama_yeni .alan_hesaplama_yeni_ic .ah_text {
   flex-grow: 1;
   height: auto;
   padding-left: 20px;
   padding-top: 50px;
 }
 
-.alan_hesaplama .alan_hesaplama_ic .ah_text > strong {
+.alan_hesaplama_yeni .alan_hesaplama_yeni_ic .ah_text > strong {
   display: block;
   background-color: #f4f4f4;
   color: #2c2c2c;
@@ -320,7 +335,7 @@
   padding-left: 10px;
 }
 
-.alan_hesaplama .alan_hesaplama_ic .ah_text > span {
+.alan_hesaplama_yeni .alan_hesaplama_yeni_ic .ah_text > span {
   display: block;
   color: #979797;
   line-height: 22px;
@@ -329,7 +344,7 @@
   font-size: 18px;
 }
 
-.alan_hesaplama .alan_hesaplama_ic .ah_text .ah_link {
+.alan_hesaplama_yeni .alan_hesaplama_yeni_ic .ah_text .ah_link {
   display: inline-block;
   color: #551d79;
   text-decoration: underline;
@@ -476,6 +491,7 @@
 .order-steps {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .order-step {
   display: flex;
@@ -623,21 +639,226 @@
   margin-bottom: 20px;
 }
 .referans_alan {
+  width: 100%;
+  max-width: 1300px;
+  text-align: center;
+  margin: 30px auto 0 !important;
+}
+
+.referans_alan .kr_gorsel {
+  width: 125px;
+  height: 125px;
+  margin: 15px;
+}
+
+.alan {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+}
+
+.alan-title {
+  text-align: left;
+  font-size: 1.8rem;
+  margin-bottom: 0.9375rem;
+  color: #551d79;
+  font-weight: bold;
+}
+
+.alan_baslik {
+  color: #551d79;
+  font-size: 2.1rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.alan_text {
+  color: #838383;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.alan_bg {
+  background: #f4f4f4;
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.alan .alan_ic {
+  height: auto;
+  margin: 0px auto;
+  position: relative;
+}
+
+.alan .alan_ic .alan_left {
+  width: 48%;
+  height: auto;
+  float: left;
+  padding-right: 2%;
+}
+
+.alan .alan_ic .left_cizgi {
+  border-right: solid 1px #e6e6e6;
+  position: absolute;
+  height: 100%;
+}
+
+.alan .alan_ic .alan_right {
+  width: 50%;
+  height: auto;
+  float: right;
+}
+
+.alan_ic_hakkimizda {
+  max-width: 70%;
+  padding: 0 30px;
+}
+
+.edepola_video {
+  width: 100%;
+  height: 300px;
+  border: solid 10px #fff;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: relative;
+}
+.container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.container.tight {
+  padding: 0 3.125rem;
+}
+
+.container-fluid {
+  position: relative;
+}
+.container-fluid:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.step-boxes {
+  flex-direction: row;
+}
+.step-box {
+  width: 25%;
+}
+
+.blog {
+  width: 100%;
+  height: auto;
+  padding: 0px 15px;
+  font-weight: 600;
+}
+
+.blog_gorsel {
+  width: 100%;
+  height: auto;
+}
+
+.blog_text {
+  width: 100%;
+  height: auto;
+  color: #666;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.blog_text .blog_baslik {
+  margin: 10px 0px;
+  color: #7227a2;
+  font-size: 20px;
+}
+
+.blog_text .blog_tarih {
+  color: #f7931d;
+  font-size: 14px;
+}
+.blog_text p {
+  margin-top: 1em;
+}
+
+.blog_etiket {
+  color: #333;
+  font-size: 14px;
+  border-top: solid 1px #ccc;
+  padding-top: 10px;
+  line-height: 22px;
+}
+
+.blog_buton {
+  width: auto;
+  height: auto;
+  border: solid 1px #f7931d;
+  text-align: center;
+  font-size: 17px;
+  padding: 13px 30px;
+  display: table;
+  color: #f7931d;
+  margin: 30px auto;
+  font-weight: 600;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
+
+.blog_buton:hover {
+  padding: 13px 40px;
+}
+.row-blog {
+  padding-top: 30px;
+}
+.footer-row {
+  background: linear-gradient(to left,#2c2c2c, #4e4d4d);
+  padding: 50px;
+}
+.footer-phone{
+	color: #f7931d;
+	text-align: right;
+	font-size: 3rem;
+	font-weight: bold;
+}
+.footer-second-row{
+	color: white;
+	font-size: 1.2rem;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.social-icon-footer{
+	width: 172px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+	color: white;
+	margin-top: 20px;
+}
+.flex-end-div{
+	display: flex;
+    justify-content: flex-end;
+}
+.bar{
+	height: 2px;
 	width: 100%;
-	max-width: 1300px;
-	text-align: center;
-	margin: 30px auto 0 !important;
-  }
-  
-  .referans_alan .kr_gorsel {
-	width: 125px;
-	height: 125px;
-	margin: 15px;
-  }
-  .alan_baslik{
-	color:#551D79;
-	font-size: 2.1rem;
-	text-align:center;
-	display: block;
-	margin-bottom: 20px;
-  }
+	background: #FFFFFF;
+	opacity: 0.23;
+	margin-bottom: 10px;
+}
+.copyright{
+	color: white;
+}
+.copyright div{
+	padding: 0;
+}
+.documents{
+	text-align: end;
+}
+
+.alan_left .alan_baslik{
+  text-align: left;
+}
