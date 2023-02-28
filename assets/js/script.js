@@ -547,31 +547,31 @@ $(document).ready(function(){
 		         TABLE DIV
 	*************************************/
 
-	function resizeTableDivs() {
-		$('.table-div .row').each(function(i, el){
-			var maxHeight = 0;
-			var $cols = $(el).find('.col');
+	// function resizeTableDivs() {
+	// 	$('.table-div .row').each(function(i, el){
+	// 		var maxHeight = 0;
+	// 		var $cols = $(el).find('.col');
 
-			$cols.each(function(index, element){
-				$(element).css('height', 'auto');
-			});
+	// 		$cols.each(function(index, element){
+	// 			$(element).css('height', 'auto');
+	// 		});
 
-			$cols.each(function(index, element){
-				var elHeight = $(element).height();
-				if( elHeight > maxHeight ) maxHeight = elHeight;
-			});
+	// 		$cols.each(function(index, element){
+	// 			var elHeight = $(element).height();
+	// 			if( elHeight > maxHeight ) maxHeight = elHeight;
+	// 		});
 
-			$cols.css('height', maxHeight + 7);
-		});
-	};
+	// 		$cols.css('height', maxHeight + 7);
+	// 	});
+	// };
 
-	if( $('.table-div').length > 0 || $('#sepet').length > 0 ) {
-		setInterval(resizeTableDivs, 200);
-	};
+	// if( $('.table-div').length > 0 || $('#sepet').length > 0 ) {
+	// 	setInterval(resizeTableDivs, 200);
+	// };
 
-	$('.t-fix').click(function(){
-		setTimeout(resizeTableDivs, 100);
-	});
+	// $('.t-fix').click(function(){
+	// 	setTimeout(resizeTableDivs, 100);
+	// });
 
 	/************************************
 	         HOME STEPS ACCORDION
