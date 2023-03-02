@@ -425,13 +425,13 @@ body {
 
 .pay-complete {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 533px;
   background: #f5f5f5 0% 0% no-repeat padding-box;
   opacity: 1;
   padding: 30px;
+  margin-bottom: 50px;
 }
 .pay-complete img {
   width: 218px;
@@ -444,7 +444,6 @@ body {
   color: #383838;
   font-weight: bold;
   font-size: 18px;
-  width: 80%;
   margin-top: 40px;
   line-height: 2.2;
 }
@@ -1188,16 +1187,16 @@ td.empty-cell {
 
 .store-type .col{
   margin-bottom: 40px;
+  position: relative;
 }
 
 .store-img {
-  text-align: right;
   background-color: #d6d6d6;
   width: 35%;
-  float: right;
-  margin-top: -65%;
-  margin-right: 3%;
   height: 83%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .number-input-div{
@@ -1238,4 +1237,10 @@ select.form-control{
 .siparis-buttons .button-debt{
   background-color: #0CA659 !important;
   border-color: #0CA659 !important;
+}
+
+@media screen and (max-width: 1650px) {
+  .store-type .col{
+    width: 100%;
+  }
 }
