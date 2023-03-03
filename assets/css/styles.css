@@ -67,6 +67,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-right: 0;
+  padding-left: 25px;
 }
 
 .social-icon {
@@ -584,6 +585,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   cursor: default;
+  font-size: 2.5rem;
 }
 
 .vertical-step-nav .step span:before {
@@ -930,6 +932,7 @@ td.empty-cell {
 .credit-card {
   background-color: #f5f5f5;
   padding: 20px;
+  margin-left: 12px;
 }
 .credit-card input,
 .credit-card select {
@@ -948,6 +951,14 @@ td.empty-cell {
 .payment-text {
   margin-top: 20px;
   color: #838383;
+  margin-bottom: 35px;
+}
+
+form .form-group{
+  margin: 12px 0;
+}
+.center{
+  text-align: center;
 }
 
 #discountform {
@@ -957,10 +968,10 @@ td.empty-cell {
   justify-content: space-between;
 }
 .discount {
-  /* UI Properties */
   background: #4e2575;
   opacity: 1;
   padding: 5px;
+  margin: 20px 0px;
 }
 .discount input {
   background: #4e2575;
