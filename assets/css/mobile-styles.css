@@ -3629,7 +3629,7 @@ th {
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > th,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #F7931D; }
+  border: 1px solid #707070; }
 
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
@@ -4552,5 +4552,11 @@ footer .adres .sm .sm_ic:hover {
   }
   .credit-card{
     text-align: center;
+  }
+  .payment-order-step-comment-title{
+    font-size: 10px;
+  }
+  .payment-order-step-comment-content{
+    font-size: 10px;
   }
 }
