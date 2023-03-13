@@ -29,7 +29,9 @@ header.mobile , .mobile-step-nav{
   #desktop-footer{
     display: none;
   }
-  
+  .login-img-div{
+    display: none;
+  }
 }
 
 header.mobile {
@@ -4558,5 +4560,36 @@ footer .adres .sm .sm_ic:hover {
   }
   .payment-order-step-comment-content{
     font-size: 10px;
+  }
+  .contact-right-side .col{
+    padding: 0;
+  }
+  .contact-title{
+    font-size: 1.4rem;
+  }
+  .contact-title-2{
+    font-size: 1.2rem;
+  }
+  .contact-title-3{
+    font-size: 1rem;
+  }
+  .contact-text{
+    font-size: 1rem;
+  }
+  .contact-content{
+    margin-top:20px
+  }
+  .page-content{
+    padding-right: 0;
+  }
+  .login-title-1{
+    font-size: 1.4rem;
+  }
+  .login-title-2{
+    font-size: 1.2rem;
+  }
+  .sign-up-link{
+    margin-left: 0;
+    
   }
 }
