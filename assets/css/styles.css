@@ -97,7 +97,7 @@ body {
   height: 55px;
   color: #ffffff;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .page-content {
@@ -122,7 +122,7 @@ body {
   width: 666px;
   height: 311px;
   font-weight: bold;
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .call-you-container {
@@ -142,8 +142,9 @@ body {
   padding: 13px;
   flex-direction: column;
 }
+
 .call-you-form label {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -169,7 +170,7 @@ body {
 
 .round-button {
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
   background-color: #e9973e;
   height: 49px;
   color: white;
@@ -199,7 +200,7 @@ body {
   padding-bottom: 10px;
 }
 .under-image-header span {
-  font-size: 1.3rem !important;
+  font-size: 1.1rem !important;
 }
 
 .div-under-image span {
@@ -212,7 +213,7 @@ body {
 }
 
 .span_h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-top: 0.9375rem;
   margin-bottom: 0.9375rem;
   color: #551d79;
@@ -227,7 +228,7 @@ body {
 }
 
 .repo-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 
@@ -275,7 +276,7 @@ body {
   display: inline-block;
   background-color: #551d79;
   padding: 0.3125rem 0.625rem;
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   font-weight: 700;
   color: white;
   border: solid 4px #f0f0f0;
@@ -319,7 +320,7 @@ body {
   display: block;
   background-color: #f4f4f4;
   color: #2c2c2c;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   padding-left: 10px;
 }
 
@@ -329,7 +330,7 @@ body {
   line-height: 22px;
   background-color: #e5e5e5;
   padding: 10px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .alan_hesaplama_yeni .alan_hesaplama_yeni_ic .ah_text .ah_link {
@@ -349,7 +350,7 @@ body {
   height: auto;
   border: 2px solid #ffffff;
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
   padding: 13px 100px;
   display: table;
   color: #fff;
@@ -377,12 +378,12 @@ body {
 
 .buyuk_baslik {
   font-weight: bold;
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
 .moryaziKimkucuk {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 1rem;
 }
 
@@ -399,7 +400,7 @@ body {
   line-height: 24px;
   color: #8b8b8b;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .musteri_yorumlari .my_alan > span {
@@ -445,7 +446,7 @@ body {
   letter-spacing: 0px;
   color: #383838;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 40px;
   line-height: 2.2;
 }
@@ -466,7 +467,7 @@ body {
   background: #4e2575 0% 0% no-repeat padding-box;
   opacity: 1;
   color: white !important;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .order-step-div {
@@ -497,7 +498,7 @@ body {
 .order-step-number {
   color: #e9973e;
   font-weight: bold;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 .order-step-comment {
@@ -508,11 +509,11 @@ body {
 
 .order-step-comment-title {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 21px;
 }
 
 .order-step-comment-content {
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .payment-order-step-content {
@@ -653,7 +654,7 @@ body {
 }
 .alan_baslik3 {
   color: #551d79;
-  font-size: 2.1rem;
+  font-size: 2rem;
   text-align: center;
   display: block;
   margin-bottom: 20px;
@@ -679,7 +680,7 @@ body {
 
 .alan-title {
   text-align: left;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 0.9375rem;
   color: #551d79;
   font-weight: bold;
@@ -687,7 +688,7 @@ body {
 
 .alan_baslik {
   color: #551d79;
-  font-size: 2.1rem;
+  font-size: 2rem;
   text-align: center;
   display: block;
   margin-bottom: 20px;
@@ -846,7 +847,7 @@ table th[class*="col-"] {
     width: 50px;
     right: 10px;
     text-align: right;
-    font-size: 20px;
+    font-size: 18px;
     color: #f7931d;
     top: 50%;
     transform: translateY(-50%);
@@ -1038,7 +1039,7 @@ form .form-group {
 
 .alan_text {
   color: #838383;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
 }
 
@@ -1128,19 +1129,19 @@ form .form-group {
   width: 100%;
   height: auto;
   color: #666;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 22px;
 }
 
 .blog_text .blog_baslik {
   margin: 10px 0px;
   color: #7227a2;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .blog_text .blog_tarih {
   color: #f7931d;
-  font-size: 14px;
+  font-size: 13px;
 }
 .blog_text p {
   margin-top: 1em;
@@ -1148,7 +1149,7 @@ form .form-group {
 
 .blog_etiket {
   color: #333;
-  font-size: 14px;
+  font-size: 13px;
   border-top: solid 1px #ccc;
   padding-top: 10px;
   line-height: 22px;
@@ -1159,7 +1160,7 @@ form .form-group {
   height: auto;
   border: solid 1px #f7931d;
   text-align: center;
-  font-size: 17px;
+  font-size: 15px;
   padding: 13px 30px;
   display: table;
   color: #f7931d;
@@ -1184,12 +1185,13 @@ form .form-group {
 .footer-phone {
   color: #f7931d;
   text-align: right;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
+  margin-top: 10px;
 }
 .footer-second-row {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -1266,14 +1268,14 @@ select.form-control {
 }
 .repo-info {
   color: #555555;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-top: 10px;
 }
 .siparis-buttons {
   padding: 20px 0;
 }
 .siparis-buttons .btn {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 0;
 }
 .siparis-buttons .button-div {
@@ -1337,13 +1339,13 @@ select.form-control {
 }
 
 .login-title-1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .login-title-2 {
   color: #9595a4;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .sign-up-link {
@@ -1354,7 +1356,7 @@ select.form-control {
 
 #login label {
   color: #000000;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-top: 15px;
 }
 
@@ -1392,7 +1394,7 @@ select.form-control {
   border: 0;
   height: 55px;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-top: 20px;
 }
 

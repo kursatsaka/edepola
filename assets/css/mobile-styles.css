@@ -91,7 +91,7 @@ header.mobile {
 
 @media screen and (max-width: 992px) {
   body {
-    font-size: 95%;
+    font-size: 92%;
   }
   .mc_slide {
     display: none;
@@ -102,12 +102,12 @@ header.mobile {
 }
 @media screen and (max-width: 912px) {
   body {
-    font-size: 92%;
+    font-size: 90%;
   }
 }
 @media screen and (max-width: 480px) {
   body {
-    font-size: 90%;
+    font-size: 88%;
   }
 }
 
@@ -1697,14 +1697,14 @@ th {
   padding: 0.625rem;
   position: relative;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .table-title .text-edit,
 .box-heading .text-edit {
   position: absolute;
   right: 0.625rem;
   top: 0.8125rem;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 .table-title .text-edit:hover,
 .box-heading .text-edit:hover {
@@ -2292,7 +2292,7 @@ textarea.area-block {
   background-color: #f5f5f5;
   border: solid 1px #e8e8e8;
   padding: 0.9375rem 0 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .panel-menu h4 {
   margin: 0 0 0.625rem;
@@ -2585,7 +2585,7 @@ textarea.area-block {
   clear: left;
 }
 .siparis-detay{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #555555;
   align-content: center;
   height: 100%;
@@ -2901,7 +2901,7 @@ textarea.area-block {
   background-color: #4E2575;
   color: white;
   padding: 10px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 .breadcrumbs li {
   display: inline-block;
@@ -4550,7 +4550,7 @@ footer .adres .sm .sm_ic:hover {
     height: 150px;
   }
   .pay-text{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .credit-card{
     text-align: center;
@@ -4591,5 +4591,11 @@ footer .adres .sm .sm_ic:hover {
   .sign-up-link{
     margin-left: 0;
     
+  }
+  .form-control{
+    line-height: 1.5rem;
+  }
+  .footer-logo{
+    width: 60%;
   }
 }
